@@ -30,8 +30,46 @@
 </head>
 
 <body>
-  <div id="bar-chart"></div>
-  <div id="map"></div>
+  <div class="container">
+    <div class="row">
+      <div id="title-area" class="col-xs-12">
+        <h1>NFL</h1>
+        <h2>Pick your team</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div id="team_chooser" class="col-xs-6">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Select team</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div id="win_vote" class="col-xs-6">
+        Will_they_win?
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="bar-chart"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <div id="map"></div>
+      </div>
+      <div class="col-xs-6">
+        <div id="news">News</div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
