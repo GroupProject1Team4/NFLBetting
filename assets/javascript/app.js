@@ -68,30 +68,25 @@ function initMap() {
 
 var renderBarChart = function() {
   var data = {
-    labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
-      "12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
+    labels: ["Wins", "Losses", "Point Rank", "Touchdown Differential"],
 
     datasets: [
       {
-        title: "Some Data", color: "light-blue",
-        values: [25, 40, 30, 35, 8, 52, 17, -4]
+        title: "Team1", color: "light-blue",
+        values: [25, 40, 30, 35]
       },
       {
-        title: "Another Set", color: "violet",
-        values: [25, 50, -10, 15, 18, 32, 27, 14]
-      },
-      {
-        title: "Yet Another", color: "blue",
-        values: [15, 20, -3, -15, 58, 12, -17, 37]
+        title: "Team2", color: "violet",
+        values: [25, 50, -10, 15]
       }
     ]
   };
 
   var chart = new Chart({
     parent: "#bar-chart",
-    title: "My Awesome Chart",
+    title: "Team Statistics",
     data: data,
-    type: 'line', // or 'line', 'scatter', 'percentage'
+    type: 'bar', // or 'line', 'scatter', 'percentage'
     height: 250
   });
 }
