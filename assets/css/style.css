@@ -4,6 +4,20 @@ html, body {
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #ffffff;
+}
+
+.jumbotron {
+	margin: 20px 0px 20px 0px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+
+
+#bar-chart {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 /* Always set the map height explicitly to define the size of the div
@@ -11,7 +25,9 @@ html, body {
 #map {
   height: 360px;
   overflow: auto;
+  margin: 20px 0px 20px 0px;
 }
-/* Optional: Makes the sample page fill the window. */
 
-
+#news {
+  margin: 20px 0px 20px 0px;
+}
