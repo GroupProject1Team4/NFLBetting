@@ -1,4 +1,6 @@
-# NFLBetting
+# NFL Stats Magic
+
+[App Link](https://groupproject1team4.github.io/NFLBetting/)
 
 * Hover over teams on the chart to view stats summary.
 * Click a team in the chart to display its detailed stats.
