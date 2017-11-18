@@ -8,16 +8,18 @@ html, body {
 }
 
 .jumbotron {
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0px 10px 0px;
+  background-color: black;
+  color: white;
 }
 
 /* Optional: Makes the sample page fill the window. */
 
 
 #bar-chart {
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 20px;
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 /* Always set the map height explicitly to define the size of the div
@@ -25,9 +27,23 @@ html, body {
 #map {
   height: 360px;
   overflow: auto;
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
-#news {
-  margin: 20px 0px 20px 0px;
+#team-info {
+  height: 360px;
+  margin: 10px 0px 10px 0px;
+  background-color: #000000;
+  color: gray;
+  padding: 40px;
+  font-size: 16px;
+}
+
+.glyphicon-heart {
+  font-size: 36px;
+}
+
+.team-name {
+  font-size: 24px;
+  color: #ffffff;
 }
